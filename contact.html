@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Akisha Yadav</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- Background -->
+<canvas id="spaceCanvas"></canvas>
+<div class="gold-glow"></div>
+
+<!-- NAV -->
+<header class="nav-wrap">
+  <nav class="glass-nav">
+    <div class="brand">
+      <div class="brand-logo">AY</div>
+      <div class="brand-name">Akisha Yadav</div>
+    </div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="container">
+
+  <!-- PAGE TITLE -->
+  <section class="reveal">
+    <div class="edu-heading-box">
+      <h1 class="edu-heading">📬 Contact Me</h1>
+    </div>
+  </section>
+
+  <!-- INTRO -->
+  <section class="contact-intro reveal">
+    <p>
+  I’m always open to collaborations, creative ideas, and meaningful conversations.
+</p>
+<p>
+  If you would like to work together or just say hello, feel free to reach out 🌟
+</p>
+
+  </section>
+
+  <!-- FIND ME -->
+<section class="glass-box reveal contact-find">
+
+  <div class="edu-heading-box">
+    <h3 class="edu-heading">🌐 Find Me</h3>
+  </div>
+
+  <div class="find-grid">
+
+    <a href="mailto:akishayadav10@gmail.com@gmail.com" class="find-card">
+      <img src="assets/icons/gmail.svg" alt="Gmail">
+      <div>
+        <span class="find-label">Email</span>
+        <span class="find-value">akishayadav10@gmail.com</span>
+      </div>
+    </a>
+
+    <a href="https://github.com/Akisha07" target="_blank" class="find-card">
+      <img src="assets/icons/github.svg" alt="GitHub">
+      <div>
+        <span class="find-label">GitHub</span>
+        <span class="find-value">Akisha Yadav</span>
+      </div>
+    </a>
+
+    <a href="https://www.linkedin.com/in/akisha-yadav-011b01385?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="find-card">
+      <img src="assets/icons/linkedin.svg" alt="LinkedIn">
+      <div>
+        <span class="find-label">LinkedIn</span>
+        <span class="find-value">Akisha Yadav</span>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+
+
+
+
+ <!-- CONTACT FORM -->
+<section class="glass-box reveal">
+
+  <div class="edu-heading-box">
+    <h3 class="edu-heading">📩 Send a Message</h3>
+  </div>
+
+ <form
+  id="contact-form"
+  action="https://formspree.io/f/mkownodp"
+  method="POST"
+  class="contact-form"
+>
+
+  <input type="text" name="name" placeholder="Your Name" required>
+  <input type="email" name="email" placeholder="Your Email" required>
+  <textarea name="message" placeholder="Your Message" required></textarea>
+
+  <button type="submit" class="gold-btn">Send Message 🚀</button>
+
+  <!-- SUCCESS MESSAGE (HIDDEN BY DEFAULT) -->
+  <p id="form-status" class="form-status hidden"></p>
+
+</form>
+
+</section>
+
+    
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
